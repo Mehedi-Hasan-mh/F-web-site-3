@@ -1,3 +1,31 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+span {
+    color:tomato;
+}
+h1 {
+    font-size: 50px;
+}
+section {
+    display: flex;
+}
+.first-area {
+    width: 50%;
+    padding-left: 10px;
+}
+.first-area img {
+    width: 80%;
+}
+.btn {
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color:#ffffff;
+}
+.top-banneer {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
