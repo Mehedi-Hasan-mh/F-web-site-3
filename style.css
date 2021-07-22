@@ -10,14 +10,13 @@ h1 {
 }
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 .first-area {
     width: 50%;
     padding-left: 10px;
-}
-.first-area img {
-    width: 80%;
-}
+} 
+
 .btn {
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
@@ -29,3 +28,24 @@ section {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat:no-repeat;
+    background-position: right;
+}
+.top-banneer img {
+    width: 73%;
+    margin-left: 220px;
+}
+.second-area {
+    width:100%;
+    padding-right: 30px;
+   
+}
+.second-area img {
+    width: 100%;
+}
+.second-area-2 {
+    margin-left: 115px;
+}
+
