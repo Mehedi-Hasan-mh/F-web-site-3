@@ -3,14 +3,20 @@ body {
     margin: 0;
 }
 span {
-    color:tomato;
+    color:orange;
 }
 h1 {
     font-size: 50px;
 }
+h2 {
+    font-size: 40px;
+}
 section {
-    display: flex;
+   
     margin-bottom: 150px;
+}
+.flexiable-container {
+    display: flex;
 }
 .first-area {
     width: 50%;
@@ -48,4 +54,38 @@ section {
 .second-area-2 {
     margin-left: 115px;
 }
+.shadow-box {
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 60px #95a5a6;
+
+}
+.orange-color {
+    color:orange;
+}
+.Experiences-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.Experiences-area p {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+#web-full {
+    border-image:linear-gradient(yellow,tomato);
+    border-image-slice: 1;
+    border-left:8px solid;
+}
+#web-baby {
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    border-left:8px solid;
+}
+footer p {
+    text-align:center;
+}
+
 
